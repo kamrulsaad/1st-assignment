@@ -137,3 +137,22 @@ body {
   padding-left: 10%;
   margin: 0 5%;
 }
+.Another{
+  display: flex;
+  width: 1500px;
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 300px;
+}
+.Another > div{
+  width: 50%;
+}
+.another1{
+  margin-left: 100px;
+  padding-top: 100px;
+}
+.another2 {
+  width: 50%;
+  padding: 2%;
+}
