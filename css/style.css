@@ -77,6 +77,10 @@ body {
   width: 33%;
   box-shadow: black;
   align-items: center;
+  height: 70vh;
+}
+.flex{
+  height: 100vh;
 }
 
 #dreams1{
@@ -155,4 +159,34 @@ body {
 .another2 {
   width: 50%;
   padding: 2%;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  padding: 0 2%;
+  background-image: linear-gradient(rgb(150, 150, 182),rgba(223, 35, 35, 0.473));
+}
+.contact-section-header > p {
+  font-style: italic;
+}
+
+.contact-links {
+  display: flex;
+  gap: 20px;;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap-reverse;
+}
+
+.contact-details {
+  font-size: 25px;
+  text-shadow: 2px 2px 1px #1f1f1f;
 }
