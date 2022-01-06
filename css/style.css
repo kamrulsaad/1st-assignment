@@ -1,9 +1,34 @@
-div{
+section{
   display: flex;
+}
+.head-first-half{
+  width: 50%;
+  margin-left: 150px;
+  border-left: 10px;
+  border-color: cornflowerblue;
 }
 h1{
   font-size: 50px;
 }
+.head-second-half{
+  width: 50%;
+}
+.picture-size{
+  width: 80%;
+}
 .name-colour{
-  color:cadetblue;
+  color:rgb(82, 126, 192);
+}
+.button{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  background-image: linear-gradient(#936bf1, #7250cf);
+  padding: 5px 20px;
+  border-radius: 5px 5px ;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
