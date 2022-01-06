@@ -1,4 +1,4 @@
-section{
+.flex{
   display: flex;
 }
 .head-first-half{
@@ -71,5 +71,49 @@ body {
 }
 
 .dreams{
-  
+  margin:  20px auto;
+  width: 1250px;
+  gap: 30px;
+}
+
+.dreams > div{
+  border: 3px solid #d7d5ddc5;
+  border-radius: 20px;
+  width: 33%;
+  box-shadow: black;
+  align-items: center;
+}
+
+#dreams1{
+  float: left;
+  padding: 10px 10px;
+  background-image: linear-gradient(rgb(74, 212, 212),rgb(147, 177, 216));
+}
+
+#dreams2{
+  padding: 10px 10px;
+  float: center;
+  background-image: linear-gradient(rgba(194, 130, 88, 0.616),rgba(175, 162, 104, 0.5));
+}
+
+#dreams3{
+  float: right;
+  padding: 10px 10px;
+  background-image: linear-gradient(rgba(76, 185, 109, 0.418),rgba(169, 216, 108, 0.897));
+}
+
+.center-text{
+  text-align: center;
+}
+
+#dreams1 > img{
+  width: 200px;
+}
+
+#dreams2> img{
+  width: 200px;
+}
+
+#dreams3 > img{
+  width: 200px;
 }
